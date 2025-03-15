@@ -1,0 +1,17 @@
+.App {
+  width: 98dvw;
+  height: 98dvh;
+}
+.App-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-header-title {
+  color: #FFF;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
