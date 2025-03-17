@@ -18,5 +18,4 @@ function App() {
         </div>
     );
 }
-//safhj
 export default App;
