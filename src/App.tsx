@@ -11,7 +11,7 @@ function App() {
                         <Typewriter typeSpeed={200} deleteSpeed={200} words={['tab']} cursorStyle="_" cursor />
                     </div>
                     <div className='App-header-slogan-text'>
-                        <Typewriter typeSpeed={200} words={['Tu solución', 'Somos nosotros']} loop />
+                        <Typewriter typeSpeed={100} words={['Tu solución', 'Somos nosotros']} loop />
                     </div>
                 </div>
             </header>
