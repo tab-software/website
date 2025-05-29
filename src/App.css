@@ -35,12 +35,6 @@ body {
   min-height: 1.5em;
 }
 
-.App-us-section {
-  width: 100%;
-  height: 100vh;
-  height: 10000px;
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -61,7 +55,15 @@ body {
   padding: 14px;
   text-decoration: none;
 }
-
+.navbarTitle {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: black;
+  margin: 0;
+  padding: 0.67em 0 0.335em 0;
+  margin-bottom: 0.335em;
+}
 .navbarSectionsDiv {
   display: flex;
   width: 75%;
@@ -92,4 +94,42 @@ body {
 .navbarSectionsDivLinkp {
   margin: 0;
   padding: 0;
+}
+
+.textOnCenter {
+  text-align: center;
+}
+
+.App-us-section {
+  width: 100%;
+  height: 100vh;
+  height: 10000px;
+}
+
+.App-us-section-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.5%;
+}
+
+.App-us-section-element-div {
+  width: 20%;
+  aspect-ratio: 1.5;
+  padding: 1.25%;
+  border: rgb(41, 41, 41) 3px solid;
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 5px white);
+  background-color: black;
+}
+
+.App-us-section-element-h1 {
+  margin: 0;
+}
+
+.App-us-section-element-p {
+  height: 100%;
+  color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
