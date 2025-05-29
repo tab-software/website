@@ -1,4 +1,4 @@
-name: Deploy React (CRA) to GitHub Pages
+name: Deploy React to GitHub Pages
 
 on:
   push:
@@ -25,5 +25,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-
+  
+      - name: Results
         run: echo "The website has been published in https://tab-software.github.io/website/"
