@@ -14,7 +14,7 @@ function AboutUs() {
                 <p className='App-us-section-desc'>
                     Tu crecimiento es nuestro objetivo.
                 </p>
-                <p>
+                <p  className='App-us-section-desc'>
                     ¿Estás listo para dar el salto?
                 </p>
                 <div className='App-us-section-contactUsButtonContainer'>
