@@ -12,10 +12,10 @@ function AboutUs() {
                 <p className='App-us-section-desc'>
                     La solución tecnológica que tu negocio necesita. Diseñamos páginas web impactantes, potenciamos tu marca con diseño creativo y optimizamos tu rendimiento con el mejor hardware a medida. Nos enfocamos en maximizar tus ventas con soluciones reales, concretas y personalizadas.
                 </p>
-                <p className='App-us-section-desc'>
+                <p className='App-us-section-desc noMargin'>
                     Tu crecimiento es nuestro objetivo.
                 </p>
-                <p  className='App-us-section-desc'>
+                <p  className='App-us-section-desc noMargin'>
                     ¿Estás listo para dar el salto?
                 </p>
                 <div className='App-us-section-contactUsButtonContainer'>

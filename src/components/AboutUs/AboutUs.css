@@ -42,6 +42,8 @@
 
   height: min-content;
   width: 30%;
+  margin-top: 5%;
+  min-width: 250px;
   overflow: hidden;
 }
 
@@ -66,4 +68,21 @@
 .App-us-section-contactUsButtonContainer :hover{
   background-color: rgb(20,20,20);
   cursor: pointer;
+}
+
+
+@media (max-width: 1200px) {
+  .App-us-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .App-us-section-descContainer {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .App-us-section-desc {
+    width: 85%;
+  }
 }
