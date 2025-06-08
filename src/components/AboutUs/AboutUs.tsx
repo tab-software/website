@@ -5,7 +5,7 @@ function AboutUs() {
     return (
         <div className='App-us-section'>
             <div className='App-us-section-illustrationContainer'>
-                <img src={require("./logo.gif")}></img>
+                <img src={require("./logo.gif")} alt="Logo of tab_"></img>
             </div>
             <div className='App-us-section-descContainer'>
                 <h1 className='App-us-section-title'>NOSOTROS</h1>
