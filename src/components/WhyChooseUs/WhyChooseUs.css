@@ -5,7 +5,27 @@
     padding: 5% 0% 0% 5%;
 }
 
+.whyChooseUs-title {
+    margin-bottom: 0;
+}
+
 .WhyChooseUs-desc {
     margin-left: 1%;
     width: 50%;
+}
+
+@media (max-width: 1200px) {
+    .whyChooseUs-mainContainer {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+    .WhyChooseUs-desc {
+        width: 80%;
+        margin: 5%;
+    }
+    .whyChooseUs-title {
+        font-size: 1.75em;
+        margin-top: 0;
+    }
 }

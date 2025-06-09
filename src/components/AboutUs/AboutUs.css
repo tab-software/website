@@ -84,4 +84,10 @@
   .App-us-section-desc {
     width: 85%;
   }
+  .App-us-section-contactUsButtonMainContainer {
+    padding: 10%;
+  }
+  .App-us-section-contactUsButtonContainer {
+    margin: 0;
+  }
 }
