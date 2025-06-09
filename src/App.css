@@ -12,10 +12,17 @@ body {
 }
 
 .subTitle {
-  width: min-content;
+  width: fit-content;
   background: linear-gradient(to bottom right, #ffffff, #4e4e4e);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+.text-desc {
+  font-size: 1.3em;
+  font-weight:500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .textOnCenter {

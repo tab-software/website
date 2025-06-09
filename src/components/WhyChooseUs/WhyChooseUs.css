@@ -1,0 +1,11 @@
+.whyChooseUs-mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5% 0% 0% 5%;
+}
+
+.WhyChooseUs-desc {
+    margin-left: 1%;
+    width: 50%;
+}

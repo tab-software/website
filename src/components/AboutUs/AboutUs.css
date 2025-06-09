@@ -15,6 +15,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .App-us-section-descContainer {
   flex: 45;
   height: 100%;
@@ -23,7 +24,6 @@
 }
 
 .App-us-section-desc {
-  font-weight:500;
   width: 70%;
 }
 
