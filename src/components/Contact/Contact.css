@@ -1,0 +1,15 @@
+.Contact-mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Contact-title {
+    margin: 5% 0 2.5% 0;
+}
+.Contact-link {
+    margin: 5%;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}

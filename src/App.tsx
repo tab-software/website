@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import AboutUs from './components/AboutUs/AboutUs';
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import TheyChooseUsBecause from './components/TheyChooseUsBecause/TheyChooseUsBecause';
+import Contact from './components/Contact/Contact';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <AboutUs />
             <WhyChooseUs />
             <TheyChooseUsBecause />
+            <Contact />
         </div>
     );
 }
