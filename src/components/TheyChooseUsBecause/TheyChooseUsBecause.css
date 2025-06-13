@@ -1,0 +1,71 @@
+.TheyChooseUsBecause-mainContainer {
+    width: 100%;
+    display: flex;    
+}
+
+.TheyChooseUsBecause-terminalContainer {
+    width: 100%;
+    display: flex;
+    aspect-ratio: 1;
+    border: solid 5px white;
+    border-radius: 40px;
+    margin: 10%;
+    flex-direction: column;
+}
+
+.TheyChooseUsBecause-rowText {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+}
+
+.TheyChooseUsBecause-title {
+    font-size: 1.25em;
+    margin: 0;
+    padding-left: 2%;
+}
+
+.TheyChooseUsBecause-titleSign {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 0;
+}
+
+.TheyChooseUsBecause-mainRow {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.TheyChooseUsBecause-normalRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TheyChooseUsBecause-descContainer {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+
+.TheyChooseUsBecause-titleContainer {
+    flex: 1;
+}
+
+.TheyChooseUsBecause-textContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.TheyChooseUsBecause-descText {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.TheyChooseUsBecause-descTextB {
+    font-weight: 500;
+    font-size: 1em;
+}
