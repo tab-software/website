@@ -1,6 +1,7 @@
 .TheyChooseUsBecause-mainContainer {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .TheyChooseUsBecause-terminalContainer {
@@ -76,6 +77,11 @@
     flex: 2;
     display: flex;
     justify-content: center;
+}
+
+.TheyChooseUsBecause-check {
+    color: lightgreen;
+    /* color: green; */
 }
 
 @media (max-width: 1200px) {

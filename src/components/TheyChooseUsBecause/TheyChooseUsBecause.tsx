@@ -18,7 +18,7 @@ function TheyChooseUsBecause() {
                             <h1 className="TheyChooseUsBecause-descTextB noMargin">Hacemos facil lo complejo__ </h1>
                         </div>
                         <div className="TheyChooseUsBecause-checkContainer">
-                            <h1 className="noMargin">✅</h1>
+                            <h1 className="noMargin TheyChooseUsBecause-check">✔</h1>
                         </div>
                     </div>
                     <div className="TheyChooseUsBecause-rowText TheyChooseUsBecause-normalRow">
@@ -27,7 +27,7 @@ function TheyChooseUsBecause() {
                             <h1 className="TheyChooseUsBecause-descTextB noMargin">Nos adaptamos a tu presupuesto__ </h1>
                         </div>
                         <div className="TheyChooseUsBecause-checkContainer">
-                            <h1 className="noMargin">✅</h1>
+                            <h1 className="noMargin TheyChooseUsBecause-check">✔</h1>
                         </div>
                     </div>
                     <div className="TheyChooseUsBecause-rowText TheyChooseUsBecause-normalRow">
@@ -36,7 +36,7 @@ function TheyChooseUsBecause() {
                             <h1 className="TheyChooseUsBecause-descTextB noMargin">Garantizamos calidad__ </h1>
                         </div>
                         <div className="TheyChooseUsBecause-checkContainer">
-                            <h1 className="noMargin">✅</h1>
+                            <h1 className="noMargin TheyChooseUsBecause-check">✔</h1>
                         </div>
                     </div>
                 </div>
