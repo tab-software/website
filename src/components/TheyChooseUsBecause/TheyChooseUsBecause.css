@@ -2,11 +2,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 4%;
 }
 
 .TheyChooseUsBecause-terminalContainer {
     width: 80%;
-    max-width: 500px;
+    max-width: 400px;
     display: flex;
     aspect-ratio: 1;
     border: solid 5px white;
@@ -59,6 +60,7 @@
     display: flex;
     flex-direction: row;
     flex: 8;
+    padding-left: 5%;
 }
 
 
@@ -87,5 +89,13 @@
 @media (max-width: 1200px) {
     .TheyChooseUsBecause-mainContainer {
         justify-content: center;
+    }
+}
+@media (max-width: 470px) {
+    .TheyChooseUsBecause-textContainer {
+        font-size: 80%;
+    }
+    .TheyChooseUsBecause-checkContainer {
+        font-size: 0.75em
     }
 }
